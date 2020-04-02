@@ -1,0 +1,38 @@
+<html>
+   <body>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <center>  <h1> Welcome to Spam Detector </h1>
+
+
+      <style>
+      input[type=text] {
+        width: 45%;
+        padding: 40px 0px;
+        margin: 80px 0;
+
+        box-sizing: border-box;
+      }
+      </style>
+      <form action = "http://localhost:9999/results" method = "POST" id="form" padding>
+        <style>
+p{
+  display: block;
+  font-size: 2em;
+  margin-top: 0.50em;
+  margin-bottom: 0.50em;
+  margin-left: ;
+  margin-right: 80;
+  font-weight: bold;
+}
+</style>
+         <p>Text <input type = "text" name = "text" /></p>
+
+      </form>
+
+
+      <button type="submit" form="form" value="Submit" class="btn btn-dark">Submit</button>
+      </center>
+   </body>
+</html>
